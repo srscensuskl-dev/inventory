@@ -1,16 +1,68 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>HLO INVENTORY</title>
+    <title>HLO INVENTORY - Census 2027</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-      iframe {
-        width: 100%;
+      body {
+        background-color: #f0f4f8;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         height: 100vh;
-        border: none;
+        margin: 0;
+        color: #243b53;
+        text-align: center;
+        padding: 20px;
+      }
+      .card {
+        background: #ffffff;
+        padding: 40px 50px;
+        border-radius: 16px;
+        box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1);
+        max-width: 500px;
+        width: 100%;
+        border-top: 6px solid #0066ff;
+      }
+      h2 {
+        color: #102a43;
+        margin-top: 0;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+      p {
+        color: #486581;
+        font-size: 0.95rem;
+        margin-bottom: 30px;
+        line-height: 1.5;
+      }
+      .btn {
+        background: linear-gradient(135deg, #0066ff, #0042cc);
+        color: white;
+        padding: 14px 30px;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        box-shadow: 0 4px 15px rgba(0, 102, 255, 0.3);
+        display: inline-block;
+        transition: transform 0.2s, box-shadow 0.2s;
+      }
+      .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(0, 102, 255, 0.4);
       }
     </style>
   </head>
   <body>
-    <iframe src="https://script.google.com/macros/s/AKfycbyRHkfXhsHshxRwldysq6UG2oXMPkO7hlhv6Svg0S3Q3keyvUs0TB5bM_vvL8WhIbBL_w/exec"></iframe>
+    <div class="card">
+      <h2>Census 2027 HLO Inventory</h2>
+      <p>Click the button below to securely open the official inventory status and dispatch portal for charges.</p>
+      <a href="https://script.google.com/macros/s/AKfycbyRHkfXhsHshxRwldysq6UG2oXMPkO7hlhv6Svg0S3Q3keyvUs0TB5bM_vvL8WhIbBL_w/exec" target="_blank" class="btn">Open Inventory Portal</a>
+    </div>
   </body>
 </html>
